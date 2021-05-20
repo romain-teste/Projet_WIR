@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style_formulaire.css" />
+  <title>WIR</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="backIndex" href="index.html"><img src="style/img/logo.jpg" alt=""></a>
+      <ul class='menu'>
+        <li><a class="liA" href="#">E-SCHOP</a></li>
+        <li><a class="liA" href="DJ.html">PRESENTATION DES DJ</a></li>
+        <li><a class="liA" href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="form">
+        <h2>Formulaire de contact</h2>
+        <h2 class="subtiles">Vous avez des questions ? Ou vous souhaitez nous faire part de vos avis ?</h2>
+        <h2 class="subtiles">Alors contactez-nous !</h2>
+        <form action="" method="post">
+          <div class="name">
+            <input type="text" name="name" id="name" required placeholder="Votre Nom" />
+          </div>
+
+          <div class="contact">
+            <input type="email" name="email" id="email" required placeholder="Votre E-mail" />
+          </div>
+
+          <div class="contact">
+            <input type="tel" id="phone" name="phone" maxlength="10" required placeholder="Votre Téléphone" />
+          </div>
+
+          <div class="message">
+            <textarea id="msg" name="your_message" placeholder="Votre Message"></textarea>
+          </div>
+
+          <div class="submit">
+            <input id="button" type="submit" value="Envoyer" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <section class="secCinq">
+        <h2 class="titreSecCinq">NEWSLETTER</h2>
+        <div class="lingeuSecCinq"></div>
+        <p class="textSecCinq">Abonnez-vous à notre newsletter</p>
+        <form action="#" class="formulaire">
+          <input class="inputMail" type="mail" value="Votre E-mail">
+          <input class="inputSub" type="submit" value="Suivant">
+        </form>
+      </section>
+      <section class="sceSix">
+        <h2 class="titreSecSix">NOUS SUIVRE</h2>
+        <div class="lingeuSecSix"></div>
+        <div class="reseau">
+          <a class="aSecSix" target="_blank" href="https://www.facebook.com/wir.sxb"><img class="logo"
+              src="style/img/logo-fb.png" alt=""></a>
+          <a class="aSecSix" target="_blank" href="https://soundcloud.com/wir_sxb"><img class="logo"
+              src="style/img/logo-sc.png" alt=""></a>
+          <a class="aSecSix" target="_blank" href="https://www.instagram.com/wir_sxb/?igshid=ohrzqh5exduw"><img
+              class="logo" src="style/img/logo-instagram.png" alt=""></a>
+        </div>
+        <p class="textSecSix">Copyright 2020 all rights reseverd Company Name.</p>
+      </section>
+    </footer>
+</body>
+
+</html>
